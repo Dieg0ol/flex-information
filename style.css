@@ -1,0 +1,52 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align:center; /* Alinha o CONTEÚDO do container no centro */
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+/* do not edit this footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+
+/*below this line start's changes*/
+
+ .container {
+  display: flex; /* deixa container flex!*/
+    justify-content: center; /* alinha o CONTAINER no centro do eixo X */
+    /*align-items: center; /* alinha o CONTAINER no centro do eixo Y   */
+    gap: 52px;
+ }
+
+ .title {
+  margin-bottom: 33px;
+ }
+
+ .info {
+  max-width: 200px;
+ }
+ /*
+ 1. usei flexbox no container
+ 2. justify-content para jogar o container no centro
+ 3. gap: 52px para abrir um "vão" entre cada item
+ 4. criamos a classe info
+ 5. max-width: 200px na classe info para e adicionamos ela a todos os itens!
+
+ */
